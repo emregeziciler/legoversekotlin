@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_legoverse"
+        android:layout_marginTop="70dp"
+        />
+
+
+    <EditText
+        android:id="@+id/mailOrUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="mail"
+        android:background="@drawable/edittext_border"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:textColorHint="@color/low_white"
+        android:singleLine="true"
+        android:maxLength="30"
+        android:layout_marginTop="10dp"
+        android:nextFocusForward="@+id/etPassword"
+        android:inputType="textEmailAddress"
+        android:padding="14dp" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/etPasswordLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:hint="password"
+        android:textAlignment="center"
+        android:textColorHint="@color/low_white"
+        android:singleLine="true"
+        android:maxLength="20"
+        android:paddingTop="10dp"
+        app:passwordToggleEnabled="true"
+        android:layout_marginTop="5dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_border"
+            android:maxLength="20"
+            android:padding="14dp"
+            android:inputType="textPassword" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordAgainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:hint="password"
+        android:textAlignment="center"
+        android:textColorHint="@color/low_white"
+        android:singleLine="true"
+        android:maxLength="20"
+        android:paddingTop="10dp"
+        app:passwordToggleEnabled="true"
+        android:layout_marginTop="5dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordAgain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_border"
+            android:padding="14dp"
+            android:maxLength="20"
+            android:inputType="textPassword" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <CheckBox
+        android:id="@+id/keepMeLogCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="5dp"
+        android:text="Keep me logged in"/>
+
+    <Button
+        android:id="@+id/createAccountButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create your account"
+        android:layout_marginStart="95dp"
+        android:layout_marginEnd="95dp"
+        android:background="@drawable/button_border_with_color"
+        android:backgroundTint="@color/button_blue"
+        android:textColor="@color/white"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Or"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Facebook"
+        android:textSize="10dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginEnd="95dp"
+        android:background="@drawable/button_border_with_color"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Twitter"
+        android:textSize="10dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginEnd="95dp"
+        android:background="@drawable/button_border_with_color"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Google"
+        android:textSize="10dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_border_with_color"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/goBackText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="&lt;- Go Back"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"/>
+</LinearLayout>
