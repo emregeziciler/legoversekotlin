@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.AddPostActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/main_yellow"
+        app:title="Add Post"
+        app:navigationIcon="@drawable/baseline_arrow_back_24" />
+
+    <EditText
+        android:id="@+id/projectName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Project Description"
+        android:background="@drawable/edittext_border"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:textColorHint="@color/low_white"
+        android:maxLength="30"
+        android:layout_marginTop="30dp"
+        android:textAlignment="textStart"
+        android:nextFocusForward="@+id/password"
+        android:padding="14dp" />
+
+
+    <ImageView
+    android:id="@+id/addImageButton"
+    android:layout_gravity="center"
+    android:layout_width="290dp"
+    android:clickable="true"
+    android:layout_height="250dp"
+    android:background="@drawable/border_with_fill"
+    android:padding="50dp"
+    android:layout_marginTop="30dp"
+    android:src="@drawable/select"/>
+
+
+    <EditText
+        android:id="@+id/postDescription"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:hint="Project Description"
+        android:background="@drawable/edittext_border"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:textColorHint="@color/low_white"
+        android:maxLength="300"
+        android:layout_marginTop="30dp"
+        android:textAlignment="textStart"
+        android:nextFocusForward="@+id/password"
+        android:padding="14dp" />
+
+
+    <Button
+        android:id="@+id/shareButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:layout_marginStart="95dp"
+        android:layout_marginEnd="95dp"
+        android:background="@drawable/button_border_with_color"
+        android:backgroundTint="@color/button_blue"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="false"/>
+
+
+</LinearLayout>
