@@ -7,14 +7,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import android.widget.ImageButton
-import android.widget.LinearLayout
-import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import com.social.legoverse.R
-import com.social.legoverse.databinding.FragmentTutorialPage1Binding
 import com.social.legoverse.databinding.LoginStarterFragmentBinding
+import com.social.legoverse.view.LoginSignIn
+import com.social.legoverse.view.LoginSignUp
 import java.lang.Exception
 
 class LoginStarterFragment : Fragment(R.layout.login_starter_fragment) {

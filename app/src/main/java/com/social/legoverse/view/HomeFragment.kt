@@ -1,4 +1,4 @@
-package com.ozgurbaykal.hostmobile.view
+package com.social.legoverse.view
 
 import android.content.Context
 import android.os.Bundle

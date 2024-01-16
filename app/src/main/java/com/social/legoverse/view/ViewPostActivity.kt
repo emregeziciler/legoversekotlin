@@ -1,7 +1,6 @@
 package com.social.legoverse.view
 
 import android.content.Context
-import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import androidx.appcompat.app.AppCompatActivity
@@ -13,13 +12,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
-import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.ozgurbaykal.hostmobile.view.HomeFragment
-import com.social.legoverse.R
-import com.social.legoverse.databinding.ActivityMainBinding
 import com.social.legoverse.databinding.ActivityViewPostBinding
 import com.social.legoverse.util.AppDatabase
 import com.social.legoverse.util.Comment

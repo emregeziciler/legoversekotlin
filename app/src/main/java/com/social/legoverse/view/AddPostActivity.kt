@@ -14,13 +14,8 @@ import android.widget.EditText
 import android.widget.ImageView
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.appcompat.widget.AppCompatImageButton
 import androidx.appcompat.widget.Toolbar
-import androidx.cardview.widget.CardView
-import com.ozgurbaykal.hostmobile.view.HomeFragment
-import com.social.legoverse.R
 import com.social.legoverse.databinding.ActivityAddPostBinding
-import com.social.legoverse.databinding.ActivityMainBinding
 import com.social.legoverse.util.AppDatabase
 import com.social.legoverse.util.Post
 import com.social.legoverse.util.UserNameOrMail

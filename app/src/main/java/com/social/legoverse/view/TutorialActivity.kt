@@ -6,11 +6,6 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import androidx.viewpager2.widget.ViewPager2
-import com.ozgurbaykal.hostmobile.view.TutorialPage1
-import com.ozgurbaykal.hostmobile.view.TutorialPage2
-import com.ozgurbaykal.hostmobile.view.TutorialPage3
-import com.ozgurbaykal.hostmobile.view.TutorialPage4
-import com.ozgurbaykal.hostmobile.view.TutorialPageListener
 import com.social.legoverse.databinding.ActivityTutorialBinding
 import com.social.legoverse.manager.SharedPreferenceManager
 

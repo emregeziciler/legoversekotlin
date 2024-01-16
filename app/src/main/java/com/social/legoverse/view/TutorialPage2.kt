@@ -1,10 +1,7 @@
-package com.ozgurbaykal.hostmobile.view
+package com.social.legoverse.view
 
 import android.content.Context
-import android.graphics.Color
 import android.graphics.PorterDuff
-import android.graphics.drawable.Drawable
-import android.graphics.drawable.GradientDrawable
 import android.graphics.drawable.LayerDrawable
 import android.os.Bundle
 import android.util.Log

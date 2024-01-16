@@ -15,8 +15,6 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
-import com.ozgurbaykal.hostmobile.view.HomeFragment
-import com.ozgurbaykal.hostmobile.view.SearchFragment
 import com.social.legoverse.R
 import com.social.legoverse.databinding.ActivityMainBinding
 import com.social.legoverse.util.AppDatabase

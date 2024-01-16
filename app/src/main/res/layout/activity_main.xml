@@ -9,14 +9,33 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="@color/white"
-            app:title=" "
-            app:navigationIcon="@drawable/baseline_menu_24" />
+            app:navigationIcon="@drawable/baseline_menu_24"
+            app:title=" ">
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <!-- Toolbar içindeki ImageView -->
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    app:srcCompat="@drawable/chat" />
+
+                <!-- Diğer elemanları ekleyebilirsiniz -->
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
 
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/mainActivityContainer"

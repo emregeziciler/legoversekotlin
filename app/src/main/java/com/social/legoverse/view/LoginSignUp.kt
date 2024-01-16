@@ -1,6 +1,5 @@
-package com.ozgurbaykal.hostmobile.view
+package com.social.legoverse.view
 
-import android.R.id.input
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
@@ -18,12 +17,11 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
+import com.ozgurbaykal.hostmobile.view.LoginStarterFragment
 import com.social.legoverse.R
 import com.social.legoverse.databinding.LoginSignUpBinding
 import com.social.legoverse.util.AppDatabase
 import com.social.legoverse.util.Users
-import com.social.legoverse.view.CreateProfileActivity
-import com.social.legoverse.view.MainActivity
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
